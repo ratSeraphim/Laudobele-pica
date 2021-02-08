@@ -20,6 +20,11 @@ public class Pica {
 		this.picMerce = merce;
 	}
 	//metodes
+	public static String mercesIzvele() {
+		 
+		
+		return izvele;
+	}
 	public void noteiktPicu() {
 		String visasPiedevas = " ";
 		for(int i=0; i<picPiedevas.length; i++) {
@@ -27,7 +32,8 @@ public class Pica {
 		}
 		visasPiedevas = visasPiedevas.substring(0, visasPiedevas.length() - 2);
 		JOptionPane.showMessageDialog(null, "Pasūtītā pica ir "+izmers+"cm liela.\n"
-				+ " Picas piedevas: "+visasPiedevas+".\n"
-				+ " Malas ir pildītas ar sieru: "+sieraMalas+".\n Vai tā jāpiegādā: "+piegade,"Pica", JOptionPane.PLAIN_MESSAGE);
+				+ "Picas piedevas: "+visasPiedevas+".\n"
+				+ "Mērce: "+picMerce+".\n"
+				+ "Malas ir pildītas ar sieru: "+sieraMalas+".\n Vai tā jāpiegādā: "+piegade,"Pica", JOptionPane.PLAIN_MESSAGE);
 	}
 }

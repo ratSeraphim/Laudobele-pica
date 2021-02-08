@@ -1,0 +1,84 @@
+[33mcommit 3b6791b3e85f9805650eb5a26c4fc1ad26572d21[m[33m ([m[1;36mHEAD -> [m[1;32mizvelesJOptionPane[m[33m)[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 19:05:19 2021 +0200
+
+    Opcija apstādināt programmu ar uzlecošu lodziņu kas brīdina lietotāju
+
+[33mcommit ab8f5ad424d25b4d60be041f063ba5a5b211f0f2[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 19:02:59 2021 +0200
+
+    Pievienoju sākotnēju izvēli
+
+[33mcommit 0c4693e272121d6f3bf38ff0a6ec6865678d9688[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 18:46:34 2021 +0200
+
+    Izlaboju drukas kļūdu kas pievieno komatu un atstarpi pie piedevu izdrukas
+
+[33mcommit 2e5c0989a2b342e004a1e57fc4123acb1d40b5a5[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 18:35:08 2021 +0200
+
+    Pievienoju telefona numura pārbaudi (vai ir 8 cipari), pievienoju mērču opciju
+
+[33mcommit e6fb3669befb475b452a3bef6bc7fbe72085226c[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 18:26:39 2021 +0200
+
+    Noņēmu nevajadzīgo klasi
+
+[33mcommit a0ac133efa12295f04c5b115902972024866b36c[m[33m ([m[1;32mmultipleToppings[m[33m)[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 18:25:38 2021 +0200
+
+    Pievienoju iespeju lietotajam ievadit vairakas piedevas
+
+[33mcommit 2d4eafb2b849f53169bbd0bff47fb0046e5f6600[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 17:01:01 2021 +0200
+
+    Aizvieto System.out.print ar JOptionPane logu.
+
+[33mcommit cc0d34c5cf14c8a8d358a05653a8265b5ca0f6b4[m[33m ([m[1;32muserInputTest[m[33m)[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 16:38:54 2021 +0200
+
+    Pievienoju iespeju lietotajam ievadit picas prasijumus (1 piedeva)
+    git status
+
+[33mcommit 591ba7dda9ea4d219cf6065ec595384d4e858ada[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 16:10:44 2021 +0200
+
+    Pievienoju iespeju lietotajam ievadit pasutitaja datus
+
+[33mcommit 1effa21442ac056da4f2091cc232373536a1395d[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 14:45:45 2021 +0200
+
+    Pirmais tests- Izveidoju pasūtītāju un picu bez lietotāja ievadīšanas. Strādā
+
+[33mcommit 5906dd49e2aef86ccffbd076267c0d277382ced1[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 14:28:08 2021 +0200
+
+    Pievieno piegades opciju picas atributiem, pievieno Pasutitaja klasi
+
+[33mcommit 7a7cec73f30b7bfb7613931da7a62e5a57ef6704[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 14:12:08 2021 +0200
+
+    Izveidoju picas klases atribūtus bez metodēm
+
+[33mcommit 0ab0a7bcc6226df3c3899d694b33f071e6df5fba[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 14:01:28 2021 +0200
+
+    Pievienoju divas klases lai veiktu OOP izstrādi
+
+[33mcommit 389e8f83fd2d5b082e3e553b3a81b26a25ed4ea1[m
+Author: Telma Laudobele <telmy2458@hotmail.lv>
+Date:   Mon Feb 8 13:47:32 2021 +0200
+
+    Izveidota dokumenta sākotnējā versija

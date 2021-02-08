@@ -13,11 +13,14 @@ public class Picerija {
 	                JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
 	     switch(x) {
 	     case 0: jaunsSutijums();
-			
+	     break;
+	     
 	     case 1: JOptionPane.showMessageDialog(null, "Nav izstrādāts kods...");
+	     break;
 	    	 
-	     case 2: JOptionPane.showMessageDialog(null,"Programma tiek apturēta","WARNING", JOptionPane.WARNING_MESSAGE);
-default: 
+	     case 2: JOptionPane.showMessageDialog(null,"Programma tiek apturēta","Brīdinājums", JOptionPane.WARNING_MESSAGE);
+	     break;
+default: JOptionPane.showMessageDialog(null,"Jūs neveicāt izvēli!","Brīdinājums", JOptionPane.ERROR_MESSAGE);
 	    }
 		 }while(x != 2);
 		
@@ -28,6 +31,7 @@ default:
 		vardsUzv = JOptionPane.showInputDialog("Ieraksti vārdu un uzvārdu!");
 		do {
 			y = JOptionPane.showInputDialog("Ieraksti telefona numuru!");
+			JOptionPane.showMessageDialog(null, "Telefona numuram jābūt 8 ciparus garam!","ERROR", JOptionPane.ERROR_MESSAGE);
 		}while(y.length() != 8);
 		telNumurs = Integer.parseInt(y);
 		dzivvieta = JOptionPane.showInputDialog("Ieraksti adresi");
