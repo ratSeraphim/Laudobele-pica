@@ -1,5 +1,7 @@
 package lv.picas;
 
+import javax.swing.JOptionPane;
+
 public class Pasutitajs {
 	//atributi
  int telefonaNum; //telefona numurs
@@ -15,7 +17,16 @@ public class Pasutitajs {
 	
 //metodes
 	public void pasutitPicu() {
-		Pica jaunsPasut = new Pica(30, "Mocarellas siers",true, false);
+		int izmers;
+		String piedeva, x;
+		boolean pildmalas = false, piegade = false;
+		izmers = Integer.parseInt(JOptionPane.showInputDialog("Ieraksti picas izmeru!"));
+		piedeva = JOptionPane.showInputDialog("Ievadi picas piedevu!");
+		x = JOptionPane.showInputDialog("Vai vēlaties lai picas malas ir pildītas ar sieru? y|n");
+		if(x.charAt(0) == 'y') {pildmalas = true;}
+		x = JOptionPane.showInputDialog("Vai picu piegadat uz jusu majam? y|n ");
+		if(x.charAt(0) == 'y') {piegade = true;}
+		Pica jaunsPasut = new Pica(izmers, piedeva, pildmalas, piegade);
 		jaunsPasut.noteiktPicu();
 	}
 	public void pasutitajaDati() {
