@@ -12,4 +12,10 @@ public class Pasutitajs {
 		this.vardsUzvards = vards;
 		this.adrese = adr;
 	}
+	
+//metodes
+	public void pasutitPicu() {
+		Pica jaunsPasut = new Pica(30, "Mocarellas siers",true, false);
+		jaunsPasut.noteiktPicu();
+	}
 }
