@@ -1,4 +1,7 @@
 package lv.picas;
+
+import javax.swing.JOptionPane;
+
 //OOP programmesana?
 public class Pica {
 	//atribūti
@@ -16,7 +19,8 @@ public class Pica {
 	}
 	//metodes
 	public void noteiktPicu() {
-		System.out.println("Pasūtītā pica ir "+izmers+"cm liela, tās piedevas ir "+piedevas+","
-				+ " Tās malas ir pildītas ar sieru: "+sieraMalas+", vai tā tiks piegādāta: "+piegade);
+		System.out.println();
+		JOptionPane.showMessageDialog(null, "Pasūtītā pica ir "+izmers+"cm liela, tās piedevas ir "+piedevas+".\n"
+				+ " Malas ir pildītas ar sieru: "+sieraMalas+".\n Vai tā jāpiegādā: "+piegade,"Pica", JOptionPane.PLAIN_MESSAGE);
 	}
 }

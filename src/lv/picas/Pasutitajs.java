@@ -30,6 +30,7 @@ public class Pasutitajs {
 		jaunsPasut.noteiktPicu();
 	}
 	public void pasutitajaDati() {
-		System.out.println("Pasūtītāja vārds un uzvārds ir "+vardsUzvards+", telefona numurs: "+telefonaNum+" un adrese "+adrese);
+		JOptionPane.showMessageDialog(null, "Vārds, Uzvārds: "+vardsUzvards+".\n Telefona numurs: "+telefonaNum+".\n"
+				+ " Adrese: "+adrese+".","Pasūtītājs", JOptionPane.PLAIN_MESSAGE);
 	}
 }
