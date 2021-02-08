@@ -12,8 +12,9 @@ public class Picerija {
 		vardsUzv = JOptionPane.showInputDialog("Ieraksti vārdu un uzvārdu!");
 		dzivvieta = JOptionPane.showInputDialog("Ieraksti adresi");
 		Pasutitajs sutitajs = new Pasutitajs(telNumurs, vardsUzv, dzivvieta);
-		sutitajs.pasutitPicu();
 		sutitajs.pasutitajaDati();
+		sutitajs.pasutitPicu();
+		
 	}
 
 }
