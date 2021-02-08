@@ -30,6 +30,7 @@ public class Pica {
 		JOptionPane.showMessageDialog(null, "Pasūtītā pica ir "+izmers+"cm liela.\n"
 				+ "Picas piedevas: "+visasPiedevas+".\n"
 				+ "Mērce: "+picMerce+".\n"
-				+ "Malas ir pildītas ar sieru: "+sieraMalas+".\n Vai tā jāpiegādā: "+piegade,"Pica", JOptionPane.PLAIN_MESSAGE);
+				+ "Malas ir pildītas ar sieru: "+sieraMalas+".\n"
+				+ "Vai tā jāpiegādā: "+piegade,"Pica", JOptionPane.PLAIN_MESSAGE);
 	}
 }

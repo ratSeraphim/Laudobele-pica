@@ -21,8 +21,9 @@ public class Pasutitajs {
 		String piedevas;
 		boolean pildmalas = false, piegade = false;
 		
-		izmers = Integer.parseInt(JOptionPane.showInputDialog("Ieraksti picas izmeru!"));
-		
+		String[] options2 = {"20","25","30","40","50","100"};
+		String izmerStr = (String) JOptionPane.showInputDialog(null,"Izvēlies picas izmēru","Veic izvēli!", JOptionPane.QUESTION_MESSAGE, null, options2, options2[0]);
+		izmers = Integer.parseInt(izmerStr);
 		piedDaudz = Integer.parseInt(JOptionPane.showInputDialog("Ieraksti cik piedevas vēlies uz picas!"));
 		String[] picPied = new String[piedDaudz];
 		for(int i=0 ; i< piedDaudz; i++) {
