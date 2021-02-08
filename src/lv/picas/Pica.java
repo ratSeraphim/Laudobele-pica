@@ -20,11 +20,7 @@ public class Pica {
 		this.picMerce = merce;
 	}
 	//metodes
-	public static String mercesIzvele() {
-		 
-		
-		return izvele;
-	}
+	
 	public void noteiktPicu() {
 		String visasPiedevas = " ";
 		for(int i=0; i<picPiedevas.length; i++) {

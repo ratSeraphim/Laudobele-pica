@@ -31,7 +31,7 @@ default: JOptionPane.showMessageDialog(null,"Jūs neveicāt izvēli!","Brīdinā
 		vardsUzv = JOptionPane.showInputDialog("Ieraksti vārdu un uzvārdu!");
 		do {
 			y = JOptionPane.showInputDialog("Ieraksti telefona numuru!");
-			JOptionPane.showMessageDialog(null, "Telefona numuram jābūt 8 ciparus garam!","ERROR", JOptionPane.ERROR_MESSAGE);
+			if(y.length() != 8)JOptionPane.showMessageDialog(null, "Telefona numuram jābūt 8 ciparus garam!","ERROR", JOptionPane.ERROR_MESSAGE);
 		}while(y.length() != 8);
 		telNumurs = Integer.parseInt(y);
 		dzivvieta = JOptionPane.showInputDialog("Ieraksti adresi");

@@ -18,7 +18,7 @@ public class Pasutitajs {
 //metodes
 	public void pasutitPicu() {
 		int izmers, piedDaudz;
-		String x, piedevas, merces;
+		String piedevas;
 		boolean pildmalas = false, piegade = false;
 		
 		izmers = Integer.parseInt(JOptionPane.showInputDialog("Ieraksti picas izmeru!"));
@@ -30,17 +30,14 @@ public class Pasutitajs {
 			picPied[i] = piedevas;
 		}
 		
-		String[] options = {"Barbekjū mērce", "Pesto mērce", "Ķiploku mērce", "Karija mērce", "Ranča mērce", "Asā mērce", "Nevienu!"};
-	      
-	       String izvele = (String) JOptionPane.showInputDialog(null, "Kādu mērci vēlaties uz picas?", "Veic izvēli!", JOptionPane.QUESTION_MESSAGE, null,
-	    		   options, options[0]);
+		String[] options = {"Barbekjū mērce", "Pesto mērce", "Ķiploku mērce", "Karija mērce", "Ranča mērce", "Asā mērce", "Neviena!"};
+	    String mercesIzvele = (String) JOptionPane.showInputDialog(null, "Kādu mērci vēlaties uz picas?", "Veiciet izvēli!", JOptionPane.QUESTION_MESSAGE, null,
+	    options, options[0]);
 		
-		x = JOptionPane.showInputDialog("Vai vēlaties lai picas malas ir pildītas ar sieru? y|n");
-		if(x.charAt(0) == 'y') {pildmalas = true;}
-		x = JOptionPane.showInputDialog("Vai picu piegadat uz jusu majam? y|n ");
-		if(x.charAt(0) == 'y') {piegade = true;}
+		if(JOptionPane.showConfirmDialog(null, "Vai picas malas ir pildītas ar sieru?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {pildmalas = true;}
+		if(JOptionPane.showConfirmDialog(null, "Vai picu jāpiegādā uz mājām?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {piegade = true;}
 		
-		Pica jaunsPasut = new Pica(izmers, picPied, izvele, pildmalas, piegade);
+		Pica jaunsPasut = new Pica(izmers, picPied, mercesIzvele, pildmalas, piegade);
 		jaunsPasut.noteiktPicu();
 	}
 	public void pasutitajaDati() {
