@@ -1,14 +1,1 @@
  
-
-Vārds, Uzvārds: Jāzeps Ozols.
- Telefona numurs: 26468754.
- Adrese: Gobu iela 74.
-
-Pasūtītā pica ir 30cm liela.
-Picas piedevas:  Desa, Mozarellas siers, Sīpoli.
-Mērce: Pesto mērce.
-Malas ir pildītas ar sieru: false.
-Vai tā jāpiegādā: true
-Pilnā cena: 9.30EUR
-
-************************

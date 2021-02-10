@@ -1,0 +1,16 @@
+************************
+ 
+ 
+
+Vārds, Uzvārds: Kristofers Kalniņš.
+ Telefona numurs: 28659002.
+ Adrese: Slimnīcas iela 41.
+
+Pasūtītā pica ir 30cm liela.
+Picas piedevas:  Sīpoli, Šķiņķis.
+Mērce: Barbekjū mērce.
+Malas ir pildītas ar sieru: false.
+Vai tā jāpiegādā: true
+Pilnā cena: 9.10EUR
+
+************************
