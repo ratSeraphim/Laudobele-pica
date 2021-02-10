@@ -1,0 +1,11 @@
+
+Vārds, Uzvārds: Vārds Uzvārds.
+ Telefona numurs: 25534343.
+ Adrese: Kociņu iela 34.
+
+Pasūtītā pica ir 30cm liela.
+Picas piedevas:  Desa, Ananāss.
+Mērce: Ranča mērce.
+Malas ir pildītas ar sieru: false.
+Vai tā jāpiegādā: true
+************************

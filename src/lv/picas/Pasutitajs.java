@@ -1,5 +1,9 @@
 package lv.picas;
 
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
+
 import javax.swing.JOptionPane;
 
 public class Pasutitajs {
@@ -43,13 +47,25 @@ public class Pasutitajs {
 	    //Merces beidzas
 		
 		if(JOptionPane.showConfirmDialog(null, "Vai picas malas ir pildītas ar sieru?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {pildmalas = true;}
-		if(JOptionPane.showConfirmDialog(null, "Vai picu jāpiegādā uz mājām?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {piegade = true;}
+		if(JOptionPane.showConfirmDialog(null, "Vai picu jāpiegādā uz mājām ?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {piegade = true;}
 		
 		Pica jaunsPasut = new Pica(izmers, picPied, mercesIzvele, pildmalas, piegade);
 		jaunsPasut.noteiktPicu();
 	}
+	
 	public void pasutitajaDati() {
 		JOptionPane.showMessageDialog(null, "Vārds, Uzvārds: "+vardsUzvards+".\n Telefona numurs: "+telefonaNum+".\n"
 				+ " Adrese: "+adrese+".","Pasūtītājs", JOptionPane.PLAIN_MESSAGE);
+		
+		try {
+			FileOutputStream file = new FileOutputStream("Pasutijumi.txt", true);
+			OutputStreamWriter raksta = new OutputStreamWriter(file, Charset.forName("UTF8"));
+					raksta.write("\nVārds, Uzvārds: "+vardsUzvards+".\n Telefona numurs: "+telefonaNum+".\n"
+							+ " Adrese: "+adrese+".\n\n");
+				raksta.close();
+			
+			}catch(Exception e) {
+				JOptionPane.showMessageDialog(null, "Kļūme ierakstot failā!", "Kļūme!", JOptionPane.ERROR_MESSAGE);
+			}
 	}
 }

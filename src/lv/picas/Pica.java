@@ -1,10 +1,14 @@
 package lv.picas;
 
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
+
 import javax.swing.JOptionPane;
 
 //OOP programmesana?
 public class Pica {
-	//atribūti
+	 //atribūti
 	int izmers; //cm diametrs 
 	String[] picPiedevas = new String[0]; //izmantošu kā masīvu, lai pievienotu vairākas piedevas!
 	String picMerce;
@@ -32,5 +36,22 @@ public class Pica {
 				+ "Mērce: "+picMerce+".\n"
 				+ "Malas ir pildītas ar sieru: "+sieraMalas+".\n"
 				+ "Vai tā jāpiegādā: "+piegade,"Pica", JOptionPane.PLAIN_MESSAGE);
+		try {
+			FileOutputStream file = new FileOutputStream("Pasutijumi.txt", true);
+			OutputStreamWriter raksta = new OutputStreamWriter(file, Charset.forName("UTF8"));
+					raksta.write("Pasūtītā pica ir "+izmers+"cm liela.\n"
+							+ "Picas piedevas: "+visasPiedevas+".\n"
+							+ "Mērce: "+picMerce+".\n"
+							+ "Malas ir pildītas ar sieru: "+sieraMalas+".\n"
+							+ "Vai tā jāpiegādā: "+piegade+"\n************************");
+				raksta.close();
+			
+			}catch(Exception e) {
+				JOptionPane.showMessageDialog(null, "Kļūme ierakstot faila!", "Kļūme!", JOptionPane.ERROR_MESSAGE);
+			}
 	}
+	public static void ierakstitpasut() {
+		
+		
+		}
 }

@@ -3,7 +3,7 @@ package lv.picas;
 import javax.swing.JOptionPane;
 
 public class Picerija {
-
+	
 	public static void main(String[] args) {
 		int x;
 		 do {  String[] options = {"Jauns sūtījums", "Aktīvie sūtījumi", "Iziet no programmas"};
@@ -39,6 +39,7 @@ default: JOptionPane.showMessageDialog(null,"Jūs neveicāt izvēli!","Brīdinā
 		sutitajs.pasutitajaDati();
 		sutitajs.pasutitPicu();
 	}
+	
 
 }
 
