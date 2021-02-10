@@ -1,7 +1,12 @@
 package lv.picas;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import javax.swing.JOptionPane;
 
@@ -9,7 +14,7 @@ public class Picerija {
 	static String teksts;
 	public static void main(String[] args) {
 		int x;
-		 do {  String[] options = {"Jauns sūtījums", "Aktīvie sūtījumi", "Iziet no programmas"};
+		 do {  String[] options = {"Jauns sūtījums", "Aktīvie sūtījumi", "Nodot visus sūtījumus", "Iziet no programmas"};
 	      
 	        x = JOptionPane.showOptionDialog(null, "Veic izvēli!",
 	                null,
@@ -32,11 +37,23 @@ public class Picerija {
 	     
 	     break;
 	    	 
-	     case 2: JOptionPane.showMessageDialog(null,"Programma tiek apturēta","Brīdinājums", JOptionPane.WARNING_MESSAGE);
+	     case 2: 
+	    	 try {
+	 			FileWriter fw = new FileWriter("Pasutijumi.txt");
+	 			PrintWriter raksta = new PrintWriter(fw);
+	 			raksta.println(" ");
+	 			raksta.close();
+	 			JOptionPane.showMessageDialog(null, "Teksts saglabāts");
+	 					
+	 		}catch(Exception e) {
+	 			JOptionPane.showMessageDialog(null, "Kļūme ierakstot failā!","Kļūme!", JOptionPane.ERROR_MESSAGE);
+	 		}
+	     break;
+	     case 3: JOptionPane.showMessageDialog(null,"Programma tiek apturēta","Brīdinājums", JOptionPane.WARNING_MESSAGE);
 	     break;
 default: JOptionPane.showMessageDialog(null,"Jūs neveicāt izvēli!","Brīdinājums", JOptionPane.ERROR_MESSAGE);
 	    }
-		 }while(x != 2);
+		 }while(x != 3);
 		
 	}
 	public static void jaunsSutijums(){

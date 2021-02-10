@@ -1,81 +1,14 @@
+ 
 
-Vārds, Uzvārds: Vārds Uzvārds.
- Telefona numurs: 25534343.
- Adrese: Kociņu iela 34.
-
-Pasūtītā pica ir 30cm liela.
-Picas piedevas:  Desa, Ananāss.
-Mērce: Ranča mērce.
-Malas ir pildītas ar sieru: false.
-Vai tā jāpiegādā: true
-************************
-Vārds, Uzvārds: Samuēls Kristoffs.
- Telefona numurs: 25568433.
- Adrese: Rīgas iela 51.
+Vārds, Uzvārds: Jāzeps Ozols.
+ Telefona numurs: 26468754.
+ Adrese: Gobu iela 74.
 
 Pasūtītā pica ir 30cm liela.
-Picas piedevas:  Mozarellas siers, Sēnes, Spināti.
-Mērce: Neviena!.
-Malas ir pildītas ar sieru: true.
-Vai tā jāpiegādā: true
-Picas cena: 19.3
-
-************************
-Vārds, Uzvārds: Kārkliņš Dāvis.
- Telefona numurs: 23660453.
- Adrese: Jaunābolu bulvāris 155.
-
-Pasūtītā pica ir 25cm liela.
-Picas piedevas:  Pepperoni, šķiņķis, tomāti.
-Mērce: Neviena!.
-Malas ir pildītas ar sieru: false.
-Vai tā jāpiegādā: true
-Pilnā cena: 16.8
-
-************************
-Vārds, Uzvārds: Kārkliņš Dāvis.
- Telefona numurs: 23660453.
- Adrese: Jaunābolu bulvāris 155.
-
-Pasūtītā pica ir 25cm liela.
-Picas piedevas:  pepperoni , šķinķis, tomāti.
-Mērce: Neviena!.
-Malas ir pildītas ar sieru: false.
-Vai tā jāpiegādā: true
-Pilnā cena: 7.3
-
-************************
-Vārds, Uzvārds: Jānis Voroņins.
- Telefona numurs: 27449201.
- Adrese: O. Kalpaka iela 23.
-
-
-Vārds, Uzvārds: Jānis Voroņins.
- Telefona numurs: 27449201.
- Adrese: O. Kalpaka iela 23.
-
-
-Vārds, Uzvārds: Jānis Voroņins .
- Telefona numurs: 27449201.
- Adrese: O. Kalpaka iela 23.
-
-Pasūtītā pica ir 50cm liela.
-Picas piedevas:  Salami.
-Mērce: Ķiploku mērce.
-Malas ir pildītas ar sieru: true.
-Vai tā jāpiegādā: false
-Pilnā cena: $11.20
-
-************************
-Vārds, Uzvārds: Seidija Welša.
- Telefona numurs: 66429011.
- Adrese: Upes iela 85.
-
-Pasūtītā pica ir 30cm liela.
-Picas piedevas:  paprika, šampinjoni.
+Picas piedevas:  Desa, Mozarellas siers, Sīpoli.
 Mērce: Pesto mērce.
 Malas ir pildītas ar sieru: false.
 Vai tā jāpiegādā: true
-Pilnā cena: 9.10EUR
+Pilnā cena: 9.30EUR
 
 ************************
