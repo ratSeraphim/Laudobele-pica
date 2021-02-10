@@ -65,16 +65,14 @@ public class Pasutitajs {
 		if(JOptionPane.showConfirmDialog(null, "Vai picas malas ir pildītas ar sieru?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {pildmalas = true; sieCen = 2.5;}
 		if(JOptionPane.showConfirmDialog(null, "Vai picu jāpiegādā uz mājām ?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {piegade = true; piCen = 2.2;}
 		
-		DecimalFormat df = new DecimalFormat("##.##");
 		pilnaCena = (piedDaudz * 0.2) + izCen + piCen + merCen + sieCen;
-		cenaForm = df.format(pilnaCena);
-		
+		cenaForm = String.format("%,.2fEUR", pilnaCena);
 		Pica jaunsPasut = new Pica(izmers, picPied, mercesIzvele, pildmalas, piegade, cenaForm);
 		jaunsPasut.noteiktPicu();
 	}
 	
 	public void pasutitajaDati() {
-		JOptionPane.showMessageDialog(null, "Vārds, Uzvārds: "+vardsUzvards+".\n Telefona numurs: "+telefonaNum+".\n"
+		JOptionPane.showMessageDialog(null, "Vārds, Uzvārds: "+vardsUzvards+".\n Telefona numurs: "+telefonaNum+"\n"
 				+ " Adrese: "+adrese+".","Pasūtītājs", JOptionPane.PLAIN_MESSAGE);
 		
 		try {
