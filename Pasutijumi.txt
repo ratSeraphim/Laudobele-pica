@@ -9,3 +9,39 @@ Mērce: Ranča mērce.
 Malas ir pildītas ar sieru: false.
 Vai tā jāpiegādā: true
 ************************
+Vārds, Uzvārds: Samuēls Kristoffs.
+ Telefona numurs: 25568433.
+ Adrese: Rīgas iela 51.
+
+Pasūtītā pica ir 30cm liela.
+Picas piedevas:  Mozarellas siers, Sēnes, Spināti.
+Mērce: Neviena!.
+Malas ir pildītas ar sieru: true.
+Vai tā jāpiegādā: true
+Picas cena: 19.3
+
+************************
+Vārds, Uzvārds: Kārkliņš Dāvis.
+ Telefona numurs: 23660453.
+ Adrese: Jaunābolu bulvāris 155.
+
+Pasūtītā pica ir 25cm liela.
+Picas piedevas:  Pepperoni, šķiņķis, tomāti.
+Mērce: Neviena!.
+Malas ir pildītas ar sieru: false.
+Vai tā jāpiegādā: true
+Pilnā cena: 16.8
+
+************************
+Vārds, Uzvārds: Kārkliņš Dāvis.
+ Telefona numurs: 23660453.
+ Adrese: Jaunābolu bulvāris 155.
+
+Pasūtītā pica ir 25cm liela.
+Picas piedevas:  pepperoni , šķinķis, tomāti.
+Mērce: Neviena!.
+Malas ir pildītas ar sieru: false.
+Vai tā jāpiegādā: true
+Pilnā cena: 7.3
+
+************************

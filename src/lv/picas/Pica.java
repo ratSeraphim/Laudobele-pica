@@ -10,18 +10,20 @@ import javax.swing.JOptionPane;
 public class Pica {
 	 //atribūti
 	int izmers; //cm diametrs 
+	String picCena;
 	String[] picPiedevas = new String[0]; //izmantošu kā masīvu, lai pievienotu vairākas piedevas!
 	String picMerce;
 	boolean sieraMalas; //vai malām ir siera pildījums?
 	boolean piegade;
 	
 	//konstruktors
-	public Pica(int izm, String[] picPied, String merce, boolean sierM, boolean pieg) {
+	public Pica(int izm, String[] picPied, String merce, boolean sierM, boolean pieg, String pilnaCena) {
 		this.izmers = izm;
 		this.picPiedevas = picPied;
 		this.sieraMalas = sierM;
 		this.piegade = pieg;
 		this.picMerce = merce;
+		this.picCena = pilnaCena;
 	}
 	//metodes
 	
@@ -35,7 +37,8 @@ public class Pica {
 				+ "Picas piedevas: "+visasPiedevas+".\n"
 				+ "Mērce: "+picMerce+".\n"
 				+ "Malas ir pildītas ar sieru: "+sieraMalas+".\n"
-				+ "Vai tā jāpiegādā: "+piegade,"Pica", JOptionPane.PLAIN_MESSAGE);
+				+ "Vai tā jāpiegādā: "+piegade+"\n"
+				+ "Pilnā cena: "+picCena,"Pica", JOptionPane.PLAIN_MESSAGE);
 		try {
 			FileOutputStream file = new FileOutputStream("Pasutijumi.txt", true);
 			OutputStreamWriter raksta = new OutputStreamWriter(file, Charset.forName("UTF8"));
@@ -43,15 +46,13 @@ public class Pica {
 							+ "Picas piedevas: "+visasPiedevas+".\n"
 							+ "Mērce: "+picMerce+".\n"
 							+ "Malas ir pildītas ar sieru: "+sieraMalas+".\n"
-							+ "Vai tā jāpiegādā: "+piegade+"\n************************");
+							+ "Vai tā jāpiegādā: "+piegade+"\n"
+							+ "Pilnā cena: "+picCena+"\n\n************************");
 				raksta.close();
 			
 			}catch(Exception e) {
 				JOptionPane.showMessageDialog(null, "Kļūme ierakstot faila!", "Kļūme!", JOptionPane.ERROR_MESSAGE);
 			}
 	}
-	public static void ierakstitpasut() {
-		
-		
-		}
+	
 }
