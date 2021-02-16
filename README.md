@@ -4,5 +4,6 @@
 - [x] Izveidots GitHub konts
 - [x] Izveidota GitHub krātuve
 - [x] Lokālie Git faili uzstādīti uz GitHub krātuves
-- [ ] Palildinātās GitHub krātuves saturs iegūts lokālai lietošanai
-- [ ] Jauna zara izveide GitHub 
+- [x] Palildinātās GitHub krātuves saturs iegūts lokālai lietošanai
+- [x] Jauna zara izveide GitHub 
+- [ ] Jaunizveidotā zara iegūšana lokālai lietošanai
