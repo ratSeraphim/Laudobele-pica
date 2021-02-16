@@ -1,4 +1,4 @@
-#Mans pirmais Git / GitHub projekts
+# Mans pirmais Git / GitHub projekts
 ### *Uzdevumu saraksts:*
 - [x] Izveidots Git projekts lokāli
 - [x] Izveidots GitHub konts
