@@ -8,7 +8,7 @@ Var reģistrēt jaunu pasūtījumu, var nodot pasūtījumus kā "piegādātus" u
 Jaunajos pasūtījumos dotas izvēles picas izmēram, piedevām, vai to jāpiegādā pie klienta un tad tiek aprēķināta cena.
 
 
-##Darba saraksts
+## Darba saraksts
 
 ![Stock picture of coding](https://jaxenter.com/wp-content/uploads/2015/07/shutterstock_238096621-e1437062483769.jpg)
 
