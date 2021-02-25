@@ -27,6 +27,7 @@ public class Pasutitajs {
 		double izCen= 0, piCen= 0, sieCen = 0, merCen = 0;
 		String piedevas, cenaForm;
 		boolean pildmalas = false, piegade = false;
+		boolean kupons = false;
 		
 		//Izmers
 		String[] options2 = {"20","25","30","40","50","100"};
@@ -64,8 +65,12 @@ public class Pasutitajs {
 		
 		if(JOptionPane.showConfirmDialog(null, "Vai picas malas ir pildītas ar sieru?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {pildmalas = true; sieCen = 2.5;}
 		if(JOptionPane.showConfirmDialog(null, "Vai picu jāpiegādā uz mājām ?","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {piegade = true; piCen = 2.2;}
+		if(JOptionPane.showConfirmDialog(null, "Vai jums ir kupons '50% nost no pasūtījuma!'","Veiciet izvēli",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {kupons = true;}
 		
 		pilnaCena = (piedDaudz * 0.2) + izCen + piCen + merCen + sieCen;
+		if(kupons = true) {
+			pilnaCena = pilnaCena / 2;
+		}
 		cenaForm = String.format("%,.2fEUR", pilnaCena);
 		Pica jaunsPasut = new Pica(izmers, picPied, mercesIzvele, pildmalas, piegade, cenaForm);
 		jaunsPasut.noteiktPicu();

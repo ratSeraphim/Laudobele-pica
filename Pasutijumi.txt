@@ -1,1 +1,14 @@
  
+
+Vārds, Uzvārds: Andris Plivinskis.
+ Telefona numurs: 20375555.
+ Adrese: Peldu iela 24a.
+
+Pasūtītā pica ir 40cm liela.
+Picas piedevas:  Kanēlis, Šprotes.
+Mērce: Ķiploku mērce.
+Malas ir pildītas ar sieru: false.
+Vai tā jāpiegādā: true
+Pilnā cena: 5.05EUR
+
+************************
